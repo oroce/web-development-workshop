@@ -21,7 +21,7 @@ class: center, middle
 
 ---
 
-## We should have a environment which is:
+## We should have an environment which is:
 
 * repeatable
 * beginner friendly
@@ -102,14 +102,14 @@ end
 ---
 class: middle, center
 
-# We'll end up having an `.elasticbeanstalk` directory
+# We'll end up having a `.elasticbeanstalk` directory
 
 ---
 
 `eb deploy`
 
 ???
-hopefully it works :)
+hopefully, it works :)
 ---
 
 # Deploy via bitrise
@@ -193,7 +193,7 @@ curl localhost:3000/astronauts
 `docker vagrant docker-logs --follow`
 
 ---
-# Since SSH is not enabled, to run command you need to issue:
+# Since SSH is not enabled, to run a command you need to issue:
 
 ```
 vagrant docker-exec -it -- /bin/bash
@@ -292,7 +292,7 @@ class: middle
     state: installed
 ```
 ???
-It's not result oriented, but I don't know how it's called
+It's not `result oriented`, but I don't know how it's called
 
 ---
 
@@ -302,7 +302,7 @@ It's not result oriented, but I don't know how it's called
 > tasks to execute
 
 ## handlers
-> hooks to be executed if a task failed or succeded
+> hooks to be executed if a task failed or succeeded
 
 ## inventory
 > list of hosts where the playbooks should be executed (can be dynamically obtained from API, like from AWS)

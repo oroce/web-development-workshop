@@ -47,7 +47,7 @@ class: middle, center
 ---
 class: middle, center
 
-You don't want to wake up at 3am because your home baked app failed to fetch the page because the datacenter was restarting their router.
+You don't want to wake up at 3 am because your home baked app failed to fetch the page because the data center was restarting their router.
 
 ???
 search for `monitoring sucks` on google
@@ -109,24 +109,24 @@ Github chatops: https://speakerdeck.com/jnewland/chatops-at-github
 
 # When should we get notified?
 
-* 1 of 5 signups failed
+* 1 of 5 sign-ups failed
 --
  ✔️
 
 --
 
-* 1 of 5 signups failed and it's 3 am
+* 1 of 5 sign-ups failed and it's 3 am
 --
  ✖️
 
 --
 
-* 5 of 5 signups failed
+* 5 of 5 sign-ups failed
 --
  ✔️
 --
 
-* 5 of 5 signups failed and it's 3 am
+* 5 of 5 sign-ups failed and it's 3 am
 --
  ✔️
 
@@ -146,14 +146,14 @@ Severity example: https://response.pagerduty.com/before/severity_levels/
 ---
 
 class: middle, center
-# So what can we monitored in a chatroom?
+# So what can we monitor in a chatroom?
 
 * new incident is open
 * incident has been acknowledged
 * incident has been escalated to a new person
 * new commit or pull request
 * deployment has been started
-* deployment failed / succeeded
+* deployment failed/succeeded
 
 ---
 class: center, middle
@@ -184,10 +184,10 @@ class: middle, center
 
 ---
 
-# Post mortem
+# Postmortem
 
 * note down the issue and when it happened
-* discuss it 2 days afterwards
+* discuss it 2 days later
 * don't blame people
 * define actionable items
 
@@ -196,13 +196,13 @@ origins: [etsy](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 ???
 * two days later you are less emotional but still the experience just happened so you can be objective while able to recall it
 
-* people you blame will be in fear, so they wont be open
+* people you blame will be in fear, so they won't be open
 
 ---
 
 class: center, middle
 
-To be able to make post mortem possible, you need logging. Log everything.
+To be able to make post-mortem possible, you need logging. Log everything.
 Just put the logs onto S3 and keep trying to reproduce and understand what caused the issue.
 
 ---

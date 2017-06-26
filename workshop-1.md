@@ -250,7 +250,7 @@ server.listen(3000, err => {
 ```
 ---
 
-Bored of keep restarting the app?
+Bored of restarting the app?
 
 ```
 npm install --save-dev nodemon

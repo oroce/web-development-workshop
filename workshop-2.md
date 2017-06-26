@@ -38,7 +38,7 @@ if (foo == 'bar') {
 What issues can we spot?
 * using `var` for constant
 * not using semicolon
-* using both single qoute and double qoute
+* using both single quote and double quote
 
 ---
 class: center, middle
@@ -148,7 +148,7 @@ Must be one of the following:
 *feat*: A new feature
 *fix*: A bug fix
 *docs*: Documentation only changes
-*style*: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+*style*: Changes that do not affect the meaning of the code (whitespace, formatting, missing semi-colons, etc)
 *refactor*: A code change that neither fixes a bug nor adds a feature
 *perf*: A code change that improves performance
 *test*: Adding missing or correcting existing tests
@@ -416,7 +416,7 @@ Code: https://github.com/oroce/bitrise-saucelabs
 
 * Content Security Policy
 * DNS prefetch control
-* frameguard
+* frame guard
 * remove powered by header
 * HTTP Public Key Pinning
 * HTTP Strict Transport Security
@@ -435,7 +435,7 @@ Code: https://github.com/oroce/bitrise-saucelabs
 ## CSRF module: [koajs/csrf](https://github.com/koajs/csrf)
 
 
-On login pages it's a must have thing. Also highly recommended on forms.
+On login pages it's a must have. Also highly recommended on forms.
 
 ???
 [wikipedia](https://en.wikipedia.org/wiki/Cross-site_request_forgery)

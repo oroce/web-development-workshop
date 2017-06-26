@@ -19,16 +19,16 @@ class: center, middle
 
 I'm Robert Oroszi. You can find me anywhere with the nickname `oroce` (pronounce like oro-sea)
 
-Cofounder and CTO at Intellyo
+Co-founder and CTO at Intellyo
 
 ???
-Intellyo is a budapest and vienna based, colocated startup with 20 ppl.
+Intellyo is a Budapest and Vienna-based, colocated startup with 20 ppl.
 ---
 
 class: middle, center
 # A few things about me
 
-I'm technically not engineer, I have MSc in business informatics.
+I'm technically not an engineer, I have MSc in business informatics.
 
 ---
 # A few things about me
@@ -73,12 +73,12 @@ Sometimes I do blogging: https://medium.com/@oroce/replicating-npm-to-riak-6da92
 
 # Funny things I did
 
-* solving socket.io issues for couple of thousands user
+* solving socket.io issues for a couple of thousands user
 * writing client app for x-ray located in London from Budapest
 * converting 30TB videos for our video hosting app
 
 ???
-You can mention the 12bit grayscale TIFF problem where you found a german universities article about to convert those images in google cache
+You can mention the 12bit grayscale TIFF problem where you found a German universities article about to convert those images in google cache
 ---
 
 # Doing nowadays
@@ -95,7 +95,7 @@ Full disclosure: I have no clue how these things are called:
 * `[` and `]`
 * `{` and `}`
 
-and not even in hungarian.
+and not even in Hungarian.
 
 ???
 Round bracket
