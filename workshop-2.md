@@ -471,3 +471,4 @@ Use something more reliable: [credential](https://github.com/ericelliott/credent
 * jest from facebook
 * postcss-lint
 * danger ci
+* [screenshot based CSS testing](https://gist.github.com/cvrebert/adf91e429906a4d746cd)
