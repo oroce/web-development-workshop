@@ -8,7 +8,7 @@
     "build:pdf": "bs pdf",
     "build:html": "bs export",
     "clean": "rm -rf .tmp dist",
-    "deploy": "npm run clean && npm run build:html && gh-pages -d dist",
+    "deploy": "npm run clean && npm run build:html && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
