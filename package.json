@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "bs serve"
+    "start": "bs serve",
+    "build:pdf": "bs pdf",
+    "build:html": "bs export",
+    "clean": "rm -rf .tmp dist",
+    "deploy": "npm run clean && npm run build:html && gh-pages -d dist",
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "backslide": "^1.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
   }
 }
