@@ -43,33 +43,27 @@ What issues can we spot?
 ---
 class: center, middle
 
-# ~jshint~ eslint
+# ~~jshint~~ eslint
 ---
-
+class: center,middle
 You can create your own collection of rules, like [we do](https://github.com/purposeindustries/eslint-config-pi)
 ---
-
+class: center,middle
 or implement someone else's: semistandard.
 ???
 Funny story: the original version of [semistandard](https://github.com/Flet/semistandard) was [standard](https://github.com/standard/standard) and someone did a version for fun because standard didn't include semicolons.
 
 ---
-
-```
-npm init --yes
-```
+class: center,middle
+`npm init --yes`
 
 --
 
-```
-npm i --save-dev semistandard
-```
+`npm i --save-dev semistandard`
 
 ---
-
-```
-$(npm bin)/semistandard
-```
+class: center,middle
+`$(npm bin)/semistandard`
 ???
 We should see errors
 
@@ -146,12 +140,17 @@ Do not commit after the fix.
 Must be one of the following:
 
 *feat*: A new feature
+
 *fix*: A bug fix
+
 *docs*: Documentation only changes
+
 *style*: Changes that do not affect the meaning of the code (whitespace, formatting, missing semi-colons, etc)
+
 *refactor*: A code change that neither fixes a bug nor adds a feature
 *perf*: A code change that improves performance
 *test*: Adding missing or correcting existing tests
+
 *chore*: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
 ---
@@ -179,15 +178,15 @@ The branch's name would be:
 fix/missing-semicolon
 ```
 ---
-
+class: center,middle
 # Yay, the build should pass
 
 ---
-
+class: center,middle
 # But we should prevent committing failing tests or lint issues
 
 ---
-
+class: center,middle
 `npm install pre-commit -D`
 
 ???
@@ -204,7 +203,7 @@ fix/missing-semicolon
 ```
 
 ---
-
+class: center,middle
 To bypass it commit with `--no-verify` or `-n`
 (`git commit -m "my message" -n`)
 
@@ -218,9 +217,6 @@ To bypass it commit with `--no-verify` or `-n`
   }
 ```
 
----
-
-# To ignore linting
 ---
 # Let's write a koa app which downloads a json file and emits its content.
 
@@ -284,8 +280,10 @@ describe('Test /', function () {
 ## https://github.com/oroce/koa-api
 
 ---
-# E2E test
 
+class: center,middle
+# E2E test
+## end to end testing
 ---
 
 # A simple html page
@@ -387,16 +385,12 @@ class: middle, center
 # npm test
 
 ---
-
+class: center,middle
 # Let's grab a saucelabs account
 
 ---
-
-Code: https://github.com/oroce/bitrise-saucelabs
-
----
-
-# An example: [oroce/bitrise-saucelabs](https://github.com/)
+class: center, middle
+# An example: [oroce/bitrise-saucelabs](https://github.com/oroce/bitrise-saucelabs)
 
 ---
 
@@ -468,3 +462,12 @@ Read more: https://dev.to/neilmadden/7-best-practices-for-json-web-tokens
 ## `MD5(password)` is not password hashing
 
 Use something more reliable: [credential](https://github.com/ericelliott/credential)
+
+---
+
+# Further thougts
+
+* hashicorp's vault
+* jest from facebook
+* postcss-lint
+* danger ci

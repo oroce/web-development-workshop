@@ -207,7 +207,7 @@ Just put the logs onto S3 and keep trying to reproduce and understand what cause
 
 ---
 
-# For the future
+# Futher thoughts
 
 * [Awesome Chatops](https://github.com/exAspArk/awesome-chatops)
 * [Github chatops](https://speakerdeck.com/jnewland/chatops-at-github)

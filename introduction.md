@@ -87,7 +87,10 @@ You can mention the 12bit grayscale TIFF problem where you found a German univer
 * doing development in R
 * IoT
 * managing 15+ microservices infrastructure
+* doing react-native
 
+???
+Just check my github profile
 ---
 Full disclosure: I have no clue how these things are called:
 
@@ -109,10 +112,28 @@ So usually I just call them:
 * `{}` - mustache
 
 ---
+class: middle, center
+# What are we going to talk about?
 
+node
+npm
+koa
+unit testing
+integratin testing
+e2e testing
+deployment
+docker
+vagrant
+chatbots
+saucelabs
+bitrise
+AWS beanstalk
+pagerduty
+pingdom
+incident management
+
+---
 # Before jumping into it
 
 * who has nodejs installed?
 * output of `node -v`
-
----

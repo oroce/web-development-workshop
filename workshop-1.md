@@ -80,7 +80,7 @@ mkdir koa-api
 npm init
 ```
 ---
-
+class: center, middle
 # `npm install --save babel-cli`
 
 ---
@@ -175,7 +175,7 @@ server.listen(5000, err => {
 });
 ```
 ---
-
+class: center, middle
 `node app.js`
 
 ---
@@ -223,10 +223,8 @@ zsh: command not found: babel-node
 * more robust
 
 ---
-
-```
-npm i --save koa
-```
+class: center,middle
+`npm i --save koa`
 ---
 
 Basic koa server:
@@ -250,14 +248,14 @@ server.listen(3000, err => {
 ```
 ---
 
-Bored of restarting the app?
+# Bored of restarting the app?
 
 ```
 npm install --save-dev nodemon
 ```
 
 ---
-
+class: center,middle
 ```
   "scripts": {
 +   "start:dev": "nodemon --exec 'npm start'",
@@ -265,7 +263,7 @@ npm install --save-dev nodemon
   }
 ```
 ---
-
+class: center,middle
 Koa's wiki is highly recommended: [https://github.com/koajs/koa/wiki](https://github.com/koajs/koa/wiki)
 
 ---
@@ -274,13 +272,13 @@ Koa's wiki is highly recommended: [https://github.com/koajs/koa/wiki](https://gi
 * a router
 * a (json) bodyparser
 
-???a
+???
 router: https://github.com/koajs/route
 body parser: https://github.com/dlau/koa-body
 
 ---
 
-# Let's make sure that
+# They should fullfill these criterias
 
 * `curl -X POST -H 'Content-Type: application/json' -d'{"type": "node"}' localhost:3000/submit` should respond with 400
 * `curl -X POST -H 'Content-Type: application/json' -d'{"type": "npm"}' localhost:3000/submit` should respond with 400
@@ -289,3 +287,12 @@ body parser: https://github.com/dlau/koa-body
 
 # Let's create a small react app
 ## npm i -g create-react-app
+
+---
+
+# Further thoughts
+
+* react
+* redux
+* postcss
+* koa wiki

@@ -324,7 +324,8 @@ class: middle, center
 
 ---
 
-# For the future
+# Further thoughts
 
 * Kubernetes
 * Serverless solutions (both AWS, Google Cloud offer such solutions)
+* Serverless support even with swift
