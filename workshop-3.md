@@ -91,7 +91,7 @@ end
 
 1. Get an AWS account
 2. Get AWS Access Key and AWS Secret Key
-3. Place it into `./aws/credentials` on your machine
+3. Place it into `~./aws/credentials` on your machine
 4. Install [`awsebcli`](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-osx.html)
 5. Create a new environment on Beanstalk
 
@@ -140,7 +140,8 @@ hopefully, it works :)
 ---
 
 ```
-docker run --name my-mysql-container -e MYSQL_ROOT_PASSWORD=root -d -p 3306 mysql/mysql-server
+docker run --name my-mysql-container \
+   -e MYSQL_ROOT_PASSWORD=root -d -p 3306 mysql/mysql-server
 ```
 
 * `--name`: name of the image (you can reference the container using this name)
@@ -177,7 +178,7 @@ class: middle, center
 # `vagrant up`
 
 ---
-
+class: center, middle
 ![](https://cdn.meme.am/cache/instances/folder124/500x/39737124/dwight-from-the-office-keep-your-fingers-crossed.jpg)
 
 ---
@@ -231,36 +232,44 @@ docker exec -it koa-api-example_default_1498407798 /bin/bash
 
 # When it's about deployment you have multiple options
 
-* managed deployment (like AWS Beanstalk)
+## managed deployment (like AWS Beanstalk)
 
 --
 
 > great for small apps with decent traffic
 
---
+---
+# When it's about deployment you have multiple options
 
-* managed docker deployment (like AWS Beanstalk)
+## managed docker deployment (like AWS Beanstalk)
 
 --
 
 > great for smaller teams with fairly complex use cases and decent traffic
 
---
+---
+# When it's about deployment you have multiple options
 
-* more complex/self managed docker deployment (kubernetes)
+## more complex/self managed docker deployment (kubernetes)
 
 --
 
 > for microservices (my suggestion is 10+ services)
 
---
+---
+# When it's about deployment you have multiple options
 
-* self managed hosts (orchestration)
+## self managed hosts (orchestration)
+
 --
 
 > great for hosts behind firewall
 
+-----
+
 > complex use cases
+
+-----
 
 > not allowed to use external services (eg government)
 
