@@ -471,4 +471,44 @@ Use something more reliable: [credential](https://github.com/ericelliott/credent
 * jest from facebook
 * postcss-lint
 * danger ci
-* [screenshot based CSS testing](https://gist.github.com/cvrebert/adf91e429906a4d746cd)
+
+---
+
+# Q&A
+
+---
+
+# Using NVM and using node v7 accidentally?
+
+```
+  "prestart:dev": "node -pe 'if(process.version[1] < 7) {console.error(`node v7 minimum`); process.exit(1) }'",
+  "start:dev": "nodemon --exec 'npm start'"
+```
+
+---
+
+# Using NVM and using node v7.6 accidentally?
+
+`npm i --save-dev check-node-version`
+
+```
+"prestart:dev": "check-node-version --node '^7.6'",
+```
+
+```
+check-node-version --node '^7.6'
+node: 6.2.1
+npm: 4.0.3
+yarn: not installed
+Error: Wanted node version ^7.6 (>=7.6.0 <8.0.0)
+To install node, run `nvm install ^7.6` or see https://nodejs.org/
+```
+
+---
+
+# Using screenshot based testing/diffing?
+
+A great research for running screenshot based CSS testing:
+
+
+https://gist.github.com/cvrebert/adf91e429906a4d746cd
