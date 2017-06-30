@@ -275,7 +275,7 @@ describe('Test /', function () {
 
 ---
 
-##We need to reorganize the repository to be able to fulfill the definition.
+## We need to reorganize the repository to be able to fulfill the definition.
 
 ## https://github.com/oroce/koa-api
 
@@ -289,15 +289,15 @@ class: center,middle
 # A simple html page
 
 ```
-<html>
-<head>
-  <title>test page</title>
-</head>
-<body>
-  <button id="btn-incr">click me</button>
-  <button id="btn-clear">clear</button>
-  <div class="content">0</div>
-  <script type="text/javascript">
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;test page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button id=&quot;btn-incr&quot;&gt;click me&lt;/button&gt;
+  &lt;button id=&quot;btn-clear&quot;&gt;clear&lt;/button&gt;
+  &lt;div class=&quot;content&quot;&gt;0&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
     var btnIncr = document.querySelector('#btn-incr');
     var btnClear = document.querySelector('#btn-clear');
     var content = document.querySelector('.content');
@@ -307,9 +307,9 @@ class: center,middle
     btnClear.addEventListener('click', function() {
       content.innerText = 0;
     }, false);
-  </script>
-</body>
-</html>
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 ```
 
 ---
@@ -319,6 +319,7 @@ class: center,middle
 * a chrome
 * `karma` module
 * `http-server`
+
 ---
 
 ```
@@ -512,3 +513,9 @@ A great research for running screenshot based CSS testing:
 
 
 https://gist.github.com/cvrebert/adf91e429906a4d746cd
+
+---
+
+# Links
+
+* https://dev.to/neilmadden/7-best-practices-for-json-web-tokens
