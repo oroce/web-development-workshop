@@ -83,6 +83,16 @@ end
 
 ---
 
+# if nodemon not picking up your changes
+
+```
+vagrant plugin install vagrant-notify-forwarder
+vagrant reload
+```
+source: https://github.com/mhallin/vagrant-notify-forwarder
+
+---
+
 # We have stable local environment, let's put it onto AWS Beanstalk
 
 ---
@@ -191,7 +201,7 @@ curl localhost:3000/astronauts
 
 # To see the logs
 
-`docker vagrant docker-logs --follow`
+`vagrant docker-logs --follow`
 
 ---
 # Since SSH is not enabled, to run a command you need to issue:
